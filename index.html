@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DASHBOARD Climático e Socioeconômico – Amazônia Inteligente</title>
+  <title>Análise dos dados Climáticos e Socioeconômico – Amazônia Inteligente</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
     body {
@@ -40,8 +40,8 @@
 </head>
 <body>
   <div class="header">
-    <h1>DASHBOARD Climático e Socioeconômico – Amazônia Inteligente</h1>
-    <p>Análise do Impacto das Mudanças Climáticas e Socioeconômico nas Comunidades da Amazônia</p>
+    <h1>Análise dos dados Climáticos e Socioeconômico – Amazônia Inteligente</h1>
+    <p>Impacto das Mudanças Climáticas e Socioeconômico nas Comunidades da Amazônia</p>
   </div>
 
   <img src="Logo.PNG" alt="Logo Projeto" class="banner-img" />
@@ -49,22 +49,49 @@
   <div class="container">
     <div class="section-title">Geral</div>
     <div class="row text-center mb-4">
-      <div class="col-md-3"><div class="card p-3">Quantidade de Dias Analisados<br /><strong>120</strong></div></div>
-      <div class="col-md-3"><div class="card p-3">Dias com Variação Climática<br /><strong>65</strong></div></div>
-      <div class="col-md-3"><div class="card p-3">% Sem Água Potável<br /><strong>42%</strong></div></div>
-      <div class="col-md-3"><div class="card p-3">
-        Selecionar Mês
-        <select class="form-select mt-2">
-          <option>Todos</option>
-          <option>Janeiro</option>
-          <option>Fevereiro</option>
-          <option>Março</option>
-          <option>Abril</option>
-        </select>
-      </div></div>
+      <div class="col-md-3">
+        <div class="card p-3">Quantidade de Dias Analisados<br /><strong>120</strong></div>
+      </div>
+      <div class="col-md-3">
+        <div class="card p-3">Dias com Variação Climática<br /><strong>65</strong></div>
+      </div>
+      <div class="col-md-3">
+        <div class="card p-3">% Sem Água Potável<br /><strong>42%</strong></div>
+      </div>
+      <div class="col-md-3">
+        <div class="card p-3">
+          Selecionar Mês
+          <select class="form-select mt-2">
+            <option>Todos</option>
+            <option>Janeiro</option>
+            <option>Fevereiro</option>
+            <option>Março</option>
+            <option>Abril</option>
+          </select>
+        </div>
+      </div>
     </div>
 
-    <div class="section-title">Principais Ações</div>
+    <div class="section-title">Painel 1: Visão Geral Climática</div>
+    <p>Inclui indicadores de chuvas médias, temperatura, produção, umidade e doenças. Gráficos de linha, área e rosca para visualização de tendências climáticas.</p>
+
+    <div class="section-title">Painel 2: Produção Agrícola</div>
+    <p>Indicadores e gráficos para avaliar relação entre chuvas e produção, com destaque para acesso à água potável.</p>
+
+    <div class="section-title">Painel 3: Qualidade de Vida e Segurança</div>
+    <p>Visualiza a incidência de doenças, segurança alimentar e acesso à água. Dispersão e colunas explicam o impacto socioambiental.</p>
+
+    <div class="section-title">Painel 4: Correlações e Análises Avançadas</div>
+    <p>Mapa de calor de correlação, ranking de produção e gráficos combinados com insights de impacto climático e hídrico.</p>
+
+    <div class="section-title">Principais Insights</div>
+    <ul>
+      <li><strong>Alerta Climático:</strong> MODERADO</li>
+      <li><strong>Tendência de Produção:</strong> Positiva</li>
+      <li><strong>Situação Hídrica:</strong> ALTO</li>
+      <li><strong>Saúde Comunitária:</strong> RISCO MODERADO</li>
+    </ul>
+
     <div class="mt-4">
       <a href="relatorio_analise_clima_socioeconomico.pdf" class="btn btn-relatorio">Baixar Relatório Completo</a>
       <a href="dados_climaticos_socioeconomico_tratado.csv" class="btn btn-relatorio ms-3">Baixar Base de Dados</a>
