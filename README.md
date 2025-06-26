@@ -1,2 +1,2 @@
 # dashboard-amazonia
-Informações sobre a Amazonia
+Dashboard interativo sobre mudanças climáticas e dados socioeconômicos da Amazônia
